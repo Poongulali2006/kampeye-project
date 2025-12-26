@@ -2,30 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
     <meta name="theme-color" content="#0a0f1a" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    
-    <title>KAMP EYE - Cyber Safety & Scam Prevention App</title>
-    <meta name="description" content="KAMP EYE protects you from cyber scams, phishing attacks, and unsafe apps. Learn cyber safety in Tamil and English with gamified learning." />
-    <meta name="keywords" content="cyber safety, scam prevention, phishing protection, app security, Tamil, English, cyber awareness" />
-    <meta name="author" content="KAMP EYE" />
 
-    <meta property="og:title" content="KAMP EYE - Your Cyber Guardian" />
-    <meta property="og:description" content="Protect yourself from cyber scams and phishing attacks with KAMP EYE" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <!-- ✅ CHANGED FOR LOCAL DEVELOPMENT -->
+    <base href="/" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@KampEye" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-    
-    <link rel="canonical" href="https://kampeye.app" />
+    <!-- ...existing code... -->
   </head>
 
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- ✅ RELATIVE PATH (IMPORTANT) -->
+    <script type="module" src="./src/main.tsx"></script>
   </body>
 </html>
